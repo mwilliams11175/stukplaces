@@ -4,6 +4,7 @@ class PlacesController < ApplicationController
 
   respond_to :html
 
+
   def index
     @places = Place.all
     respond_with(@places)
